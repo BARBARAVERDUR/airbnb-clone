@@ -8,11 +8,6 @@ export const data = [
     description:
       "Escapa a esta hermosa casa de playa ubicada en las costas de Malibú. Esta casa cuenta con impresionantes vistas del océano y está completamente equipada con todas las comodidades que necesitas para una divertida y relajante escapada a la playa.",
     images: [
-      require("../../assets/images/beach_house.webp"),
-      require("../../assets/images/beach_house.webp"),
-      require("../../assets/images/beach_house.webp"),
-      require("../../assets/images/beach_house.webp"),
-      require("../../assets/images/beach_house.webp"),
       require("../../assets/images/beach_house_1.webp"),
       require("../../assets/images/beach_house_2.webp"),
       require("../../assets/images/beach_house_3.webp"),
