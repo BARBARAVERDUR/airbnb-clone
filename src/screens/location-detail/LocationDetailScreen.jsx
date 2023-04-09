@@ -2,6 +2,7 @@ import React from "react";
 import { ScrollView } from "react-native";
 import { Text } from "react-native";
 import { View } from "react-native";
+import  MapView , {Marker} from "react-native-maps";
 import { styles } from "./LocationDetailScreen.styles";
 import { Image } from "react-native";
 import { COLORS } from "../../utils/theme";
@@ -36,6 +37,26 @@ export const LocationDetailScreen = ({route}) => {
         </View>
         <Text style={styles.description}> {item.description}</Text>
       </View>
+
+      <MapView
+       style = {styles.map}
+       initialRegion={{
+        latitude: item.locationCoordinates.latitude,
+        longitude: item.locationCoordinates.longitude,
+        longitudeDelta: 0.002,
+        latitudeDelta: 0.002
+       }}
+      >
+       <Marker
+       coordinate={{
+        latitude: item.locationCoordinates.latitude,
+        longitude: item.locationCoordinates.longitude
+       }}
+       title={item.title}
+       />
+      </MapView>
     </ScrollView>
   );
 };
+
+//1:32:56
