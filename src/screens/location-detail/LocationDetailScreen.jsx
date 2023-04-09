@@ -58,5 +58,3 @@ export const LocationDetailScreen = ({route}) => {
     </ScrollView>
   );
 };
-
-//1:32:56
