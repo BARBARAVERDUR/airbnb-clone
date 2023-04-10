@@ -12,7 +12,7 @@ const Tab = createBottomTabNavigator();
 const TAB_ICON = {
   Home: "home",
   Profile: "person",
-  ListExplorer: "search",
+  Search: "search",
 };
 
 const screenOptions = ({ route }) => {
@@ -32,7 +32,7 @@ export const MainScreen = () => {
   return (
     <Tab.Navigator screenOptions={screenOptions}>
       <Tab.Screen name="Home" component={HomeScreen} />
-      <Tab.Screen name="ListExplorer" component={LocationListScreen} />
+      <Tab.Screen name="Search" component={LocationListScreen} />
       <Tab.Screen name="Profile" component={ProfileScreen} />
     </Tab.Navigator>
   );

@@ -38,9 +38,9 @@ export const styles = StyleSheet.create({
     alignItems: "center",
   },
   rating: {
-    marginLeft: 8,
+    marginLeft: 6,
     color: COLORS.text,
-    fontSize: FONT_SIZE.md
+    fontSize: FONT_SIZE.md,
   },
   description: {
     fontSize: 18,
@@ -51,6 +51,16 @@ export const styles = StyleSheet.create({
     height: 250,
     marginVertical: 20,
     borderRadius: 10,
-  }, 
+  },
+  webButton: {
+    textAlign: "center",
+    backgroundColor: COLORS.primary,
+    color: COLORS.white,
+    borderRadius: 20,
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    width: 100,
+    marginTop: 10,
+  },
 });
 

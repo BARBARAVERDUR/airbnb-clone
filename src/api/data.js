@@ -17,6 +17,7 @@ export const data = [
       latitude: -24.1893858,
       longitude: -65.2938462,
     },
+    url: "http://example.com",
   },
   {
     id: "2",
@@ -35,6 +36,7 @@ export const data = [
       latitude: -24.1893858,
       longitude: -65.2938462,
     },
+    url: "http://example.com",
   },
   {
     id: "3",
@@ -53,6 +55,7 @@ export const data = [
       latitude: -24.1893858,
       longitude: -65.2938462,
     },
+    url: "http://example.com",
   },
   {
     id: "4",
@@ -71,6 +74,7 @@ export const data = [
       latitude: -24.1893858,
       longitude: -65.2938462,
     },
+    url: "http://example.com",
   },
   {
     id: "5",
@@ -89,6 +93,7 @@ export const data = [
       latitude: -24.1893858,
       longitude: -65.2938462,
     },
+    url: "http://example.com",
   },
   {
     id: "6",
@@ -107,6 +112,7 @@ export const data = [
       latitude: -24.1893858,
       longitude: -65.2938462,
     },
+    url: "http://example.com",
   },
   {
     id: "7",
@@ -116,14 +122,15 @@ export const data = [
     description:
       "¡Sumérgete en la historia en nuestra casa histórica! Con más de 100 años de antigüedad, nuestra casa ha sido restaurada para ofrecer una experiencia auténtica y única a nuestros huéspedes. Disfruta del encanto y la elegancia del pasado en tu próxima estancia.",
     images: [
-      require('../../assets/images/house_historical_1.webp'),
-      require('../../assets/images/house_historical_2.webp'),
-      require('../../assets/images/house_historical_3.webp')
+      require("../../assets/images/house_historical_1.webp"),
+      require("../../assets/images/house_historical_2.webp"),
+      require("../../assets/images/house_historical_3.webp"),
     ],
-    price: '$450/noche',
+    price: "$450/noche",
     locationCoordinates: {
       latitude: -24.1893858,
-      longitude: -65.2938462
-    }
+      longitude: -65.2938462,
+    },
+    url: "http://example.com"
   },
 ];
