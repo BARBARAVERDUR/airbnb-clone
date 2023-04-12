@@ -20,7 +20,7 @@ export const LocationDetailScreen = ({route}) => {
           {item.images.map((image, idx) => (
             <Image
               key={idx}
-              source={image}
+              source={{uri :`http://drive.google.com/uc?id=${image}`}}
               style={styles.image}
               resizeMode="cover"
             />

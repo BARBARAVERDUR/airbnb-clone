@@ -21,15 +21,16 @@ export const LoginScreen = () => {
   });
 
   const handleLogin = ({ username, password }) => {
+    console.log("esoty en el handleLogin");
     getUsers()
-      .then((users) => {
+      .then(users => {
         const user = users[0]
         if (username === user.username && password === user.password) {
           setCurrentUser({ username, password });
-          navigation.navigate(`Home`)
+          navigation.navigate("Home");
         }
       })
-      .catch((err) => console.warn(err));
+      .catch((err) =>   console.warn(err));
   }
 
   return (
